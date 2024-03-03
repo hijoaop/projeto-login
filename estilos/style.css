@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+main > section{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.61);
+    transition: all .3s;
+}
+
+#imagem{
+    display: block;
+    background: url(../imagens/pexels-rdne-stock-project-7978061.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    height: 300px;
+    
+    
+
+}
+
+#login{
+    display: block;
+    padding: 15px;
+}

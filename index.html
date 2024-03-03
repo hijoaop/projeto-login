@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mq.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+    <main>
+        <section>
+            <div id="imagem">
+               
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>coloque sua informações para entrar no universo de HP</p>
+                <form action="cadastro.php">
+                    <div class="login">
+                        <label for="imail"><span class="material-symbols-outlined">
+                            person
+                            </span></label>
+                        <input type="email" name="mail" id="imail" required placeholder="seu email" maxlength="30" autocomplete="email">
+                        
+                    </div>
+
+                    <div class="login">
+                        <label for="isen"><span class="material-symbols-outlined">
+                            key
+                            </span></label>
+                    <input type="password" name="sen" id="isen" required minlength="8" maxlength="8" placeholder="sua senha">
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci minha senha</a>
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
