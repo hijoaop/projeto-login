@@ -17,6 +17,15 @@
         background-position: center center;
         transition: all .3s;
     }
+
+
+
+    input[type=submit]{
+        display: block;
+    
+        margin: auto;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -27,6 +36,7 @@
 
     main > section{
         width: 90vw;
+        
     }
 
     #imagem{
@@ -37,6 +47,17 @@
     }
 
     #formulario{
-        padding: 5px;
+        float: left;
     }
-}
+
+    input[type=submit]{
+        display: inline-block;
+        
+        margin: 5px 5px;
+        
+    }
+    
+    .login{
+        margin: 10px auto;
+    }
+}   
